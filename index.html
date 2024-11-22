@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lyft Prediction</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lyft收入预测Apps</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <script 
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzxrOoHtCiLsH47bRCGe_qRksqgjDoy1Y&libraries=visualization" async>
+  </script>
 </head>
 <body>
-    
+  <header>
+    <h1>Lyft收入预测Apps</h1>
+  </header>
+
+  <main>
+    <section id="map-section">
+      <h2>高需求区域预测</h2>
+      <div id="map-container">加载地图中...</div>
+    </section>
+
+    <section id="prediction-section">
+      <h2>预测数据</h2>
+      <div id="data-display">加载预测数据中...</div>
+    </section>
+
+    <section id="weather-section">
+      <h2>天气信息</h2>
+      <p id="weather">加载天气数据中...</p>
+    </section>
+
+    <section id="chart-section">
+      <h2>收入预测图</h2>
+      <canvas id="income-chart"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Lyft收入预测Apps</p>
+  </footer>
+
+  <script src="index.js"></script>
 </body>
 </html>
+
+      

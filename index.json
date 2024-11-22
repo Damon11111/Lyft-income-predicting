@@ -1,0 +1,18 @@
+[
+    {
+      "location": "芝加哥市中心",
+      "time": "下午 5:00 - 7:00",
+      "surge": 1.5
+    },
+    {
+      "location": "机场",
+      "time": "上午 7:00 - 9:00",
+      "surge": 2.0
+    },
+    {
+      "location": "Wicker Park",
+      "time": "晚上 8:00 - 10:00",
+      "surge": 1.8
+    }
+  ]
+  
